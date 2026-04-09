@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+/* Background */
+body {
+  background: radial-gradient(circle at top, #0f172a, #020617);
+}
+
+/* Glow effect */
+.glow {
+  box-shadow: 0 0 40px rgba(34, 197, 94, 0.6);
+}
